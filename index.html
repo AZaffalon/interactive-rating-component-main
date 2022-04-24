@@ -11,17 +11,12 @@
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Interactive rating component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <!-- Rating state start -->
 
-  <div class="card-container card--center">
+  <div class="card-container card--center" id="card-container--note"> <!-- card--center -->
     <div class="circle circle--center">
       <img src="./images/icon-star.svg" alt="A star">
     </div>
@@ -48,7 +43,7 @@
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <div class="card-container hidden">
+  <div class="card-container hidden" id="card-container--thanks">
     <div class="thank-you-icon">
       <img src="./images/illustration-thank-you.svg" alt="thank you icon">
     </div>
@@ -66,7 +61,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/AZaffalon">Alexis Zaffalon</a>.
+    Coded by <a href="https://github.com/AZaffalon" target="_blank">Alexis Zaffalon</a>.
   </div>
 
   <script src="script.js"></script>
