@@ -40,7 +40,11 @@ body p,
     line-height: 1.5;
 }
 
-h2 {
+.number {
+    transition: background-color 300ms, color 300ms;
+}
+
+h1 {
     color: var(--white);
     margin-bottom: 0;
     font-size: 26px;
@@ -171,7 +175,7 @@ h2 {
         font-size: 16px;
     }
 
-    h2 {
+    h1 {
         font-size: 28px;
     }
 
